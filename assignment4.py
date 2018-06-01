@@ -1,3 +1,4 @@
+import collections
 tuple1 = 1,2,3,4
 
 #1 Finding length of a tuple
@@ -26,3 +27,8 @@ diction1 = {"Name":"Vanshika","Roll No":37,"College":"GEU","Course":"Python and 
 #6 sortting a dictionary
 for key in sorted(diction1.keys()):
     print ("%s: %s" % (key, diction1[key]))
+#7
+a="mississipi"
+a=list(a)
+count = collections.Counter(a)
+print(count)
